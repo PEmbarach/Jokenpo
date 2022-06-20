@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="">
+
+    <title>Jokenpô</title>
+</head>
+<body>
+    <header>Jokenpô</header>
+
+    <section class="game-area">
+        <div>
+            <p>Make a choice:</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+            <button aria-label="Scissors" data-choice="1" class="control">Scissors</button>
+            <button aria-label="Paper" data-choice="2" class="control">Paper</button>
+        </div>
+        <div id="messages"></div>
+        <div class="player">
+            <h3 class="score" >Your score : <span id="player-score">0</span></h3>
+            <img src="assets/images/rockPaperScissors.png" alt="Jokenpô" id="player-image">
+        </div>
+        <div class="computer">
+            <h3 class="score" >Computer score : <span id="computer-score">0</span></h3>
+            <img src="assets/images/rockPaperScissors.png" alt="Jokenpô" id="computer-image">
+        </div>
+    </section>
+
+    <footer>
+        <h3>Rules</h3>
+        <p>Scissors cut Paper | Paper cover Rock | Rock blunts Scissors</p>
+    </footer>
+
+    <script src="assets/javaScript/index.js"></script>
+</body>
+</html>

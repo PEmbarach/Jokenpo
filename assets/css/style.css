@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+/* Main view setup */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+}
+
+/* Hedaer and footer */
+
+header { 
+    text-align: center;
+    height: 50px;
+    font-size: 2rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Game area */
+
+.game-area {
+    width: 75%;
+    margin: 1% auto 0 auto;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+}
+
+#messages {
+    height: 20px;
+}
+
+.score {
+    color: #fff;
+}
+
+.player { 
+    background-color: lightblue;
+    float: left;
+    width: 45%;
+}
+
+#player-image {
+    width: 75%;
+}
+
+.computer {
+    background-color: lightcoral;
+    float: right;
+    width: 45%;
+}
+
+#computer-image {
+    width: 75%;
+    align-content: center;
+}
