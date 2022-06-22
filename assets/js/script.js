@@ -45,10 +45,10 @@
          if (computerChoice == "rock") {
              messages.innerHTML = 'Draw';
          } else if (computerChoice == "scissors") {
-              messages.innerHTML = 'You Loose =(';
+              messages.innerHTML = 'You Win!';
               computerScore.innerHTML++;
           } else if (computerChoice == "paper") {
-              messages.innerHTML = 'You Win!';
+              messages.innerHTML = 'You Loose =(';
               playerScore.innerHTML++;
           }
        }
